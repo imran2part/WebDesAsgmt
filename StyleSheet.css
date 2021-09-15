@@ -1,0 +1,954 @@
+﻿/*Background Image*/
+img.background {
+    min-height: auto;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* wording style*/
+p {
+    color: MAROON;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Courier New";
+    text-align: justify;
+}
+
+/*Side Hover Menu*/
+.hover_menu {
+    font-size: 30px;
+    width: 20px;
+}
+
+    .hover_menu a:hover {
+        font-size: 35px;
+    }
+
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 18px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 38px;
+        height: 50px;
+        font-size: 40px;
+    }
+
+.onlyformember {
+    margin-top: 15px;
+}
+
+/*Skin Background*/
+.skin {
+    width: 990px;
+    display: block;
+    margin: auto;
+}
+
+.innerskin {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+/*Top Section*/
+.topbanner {
+    background-image: url(main_resources/ntext.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 252px;
+    display: block;
+}
+/*Title & Logo*/
+.title_logo {
+    background-image: url(main_resources/ntitle.jpg);
+    position: center;
+    height: 145px;
+    width: 702px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    float: left;
+    margin-left: 110px;
+}
+/*social media*/
+.socialmedia_links img {
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.facebook img:hover {
+    opacity: 0.5;
+}
+
+.instagram img:hover {
+    opacity: 0.5;
+}
+
+.twitter img:hover {
+    opacity: 0.5;
+}
+/*button links*/
+.navigation {
+    height: 40px;
+    width: 900px;
+    float: left;
+    padding-top: 5px;
+}
+
+    .navigation ul {
+        padding-left: 50px;
+    }
+
+    .navigation li {
+        float: left;
+        height: 40px;
+        list-style: none;
+        padding-right: 20px;
+        margin-bottom: 10px;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+    }
+
+.dropdown_nav_menu li {
+    border: 1px dashed grey;
+    font-size: 18px;
+}
+
+.help img {
+    width: 30px;
+    height: 25px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+    .help img:hover {
+        width: 32px;
+        height: 27px;
+    }
+
+/*Page Contern CSS*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Home Page CSS@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.home {
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.homepage-maintext-bg {
+    width: 990px;
+    height: 1300px;
+    background: url(main_resources/text.jpg) repeat-y top left;
+    border-radius: 20px;
+}
+
+.sales_banner {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+img.mySlides {
+    width: 845px;
+    height: 300px;
+    box-shadow: 8px 8px 0px 0px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 800px;
+    border-width: 2px;
+}
+/*Categories*/
+.category_1 {
+    margin-left: 30px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+img.category_1 {
+    width: 420px;
+    height: 220px;
+    border: solid 2px black;
+}
+
+.category_2 {
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+img.category_2 {
+    width: 420px;
+    height: 220px;
+    border: solid 2px black;
+}
+
+.category_3 {
+    margin-left: 30px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+img.category_3 {
+    width: 560px;
+    height: 220px;
+    border: solid 2px black;
+}
+
+.category_4 {
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+img.category_4 {
+    width: 280px;
+    height: 220px;
+    border: solid 2px black;
+}
+
+.category_5 {
+    padding-top: 10px;
+    margin-left: 60px;
+    width: 850px;
+    height: 250px;
+    display: block;
+}
+
+img.hotitem_title {
+    width: 200px;
+    height: 80px;
+    padding-bottom: 0px;
+}
+
+img.recommeded_title {
+    width: 450px;
+    height: 80px;
+    padding-bottom: 0px;
+}
+
+.products ul {
+    list-style: none;
+}
+
+.products li {
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+p.more {
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+img.imageA {
+    width: 140px;
+    height: 150px;
+}
+
+.linebreak {
+    padding-top: 0px;
+    margin-left: 60px;
+    width: 850px;
+    height: 50px;
+}
+
+img.line_break {
+    padding-top: 0px;
+    width: 850px;
+    height: 150px;
+}
+
+.img_container {
+    position: relative;
+    font-family: Arial;
+}
+
+.text-block {
+    float: bottom;
+    position: absolute;
+    width: 120px;
+    height: 29px;
+    background-color: white;
+    border: solid black 1px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+    .text-block p {
+        color: black;
+        font-size: 12px;
+    }
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Product List Page CSS@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*dropdown button contents*/
+.pl_buttons {
+    background-image: url(main_resources/text.jpg);
+    border: none;
+    color: #beb98f;
+    font-family: "Arial Black";
+    background: milk;
+    display: block;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 15px;
+    height: 40px;
+}
+
+.productlist_content {
+    display: none;
+    position: absolute;
+    background-image: url(main_resources/text.jpg);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px;
+}
+    /*links inside the dropdown*/
+    .productlist_content a {
+        padding: 12px 16px;
+        display: block;
+        font-size: 13px;
+    }
+        /*change color of dropdown links on hover*/
+        .productlist_content a:hover {
+            color: black;
+            font-size: 13.5px;
+        }
+/*show the dropdown menu on hover*/
+.dropdown_productlist:hover .productlist_content {
+    display: block;
+}
+/*bold the dropdown button when the dropdown content is shown*/
+.dropdown_productlist:hover .pl_buttons {
+    color: black;
+}
+
+.pl_content:hover {
+    color: black;
+}
+/*new*/
+.product_maintext_bg {
+    width: 1000px;
+    height: 2000px;
+    background: url(main_resources/text.jpg) repeat-y top left;
+    border-radius: 20px;
+}
+
+.product_list_ul {
+    display: block;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+}
+
+.product_grid {
+    position: relative;
+    margin-left: 50px;
+}
+
+.item_last {
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+}
+
+.product_jpg {
+    position: relative;
+    display: block;
+    border: 1px solid;
+    height: 140px;
+    width: 140px;
+}
+
+.product_info {
+    position: relative;
+    margin-bottom: 30px;
+    min-height: 100px;
+}
+
+.product_name {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: lato,helvetica neue,Verdana,Arial,sans-serif;
+}
+
+.price_box {
+    color: #000;
+    font-size: 12px;
+    margin: 0;
+    line-height: 1;
+}
+
+.price_label {
+    display: none;
+    color: #a0a0a0;
+    white-space: nowrap;
+    font-family: georgia,helvetica neue,Verdana,Arial,sans-serif;
+}
+
+.price {
+    font-family: lato,Verdana,Arial,sans-serif;
+    letter-spacing: 2px;
+}
+
+.price_button {
+    border: groove;
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Event Page CSS@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*dropdown button contents*/
+.events {
+    background: url(main_resources/text.jpg);
+    border: none;
+    color: #beb98f;
+    font-family: "Arial Black";
+    background: milk;
+    display: block;
+    font-size: 14.75px;
+}
+
+.e_buttons {
+    background-image: url(main_resources/text.jpg);
+    border: none;
+    color: #beb98f;
+    font-family: "Arial Black";
+    background: milk;
+    display: block;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 40px;
+}
+
+.events_content {
+    display: none;
+    position: absolute;
+    background-image: url(main_resources/text.jpg);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px;
+}
+    /*links inside the dropdown*/
+    .events_content a {
+        padding: 12px 16px;
+        display: block;
+        font-size: 13px;
+    }
+        /*change color of dropdown links on hover*/
+        .events_content a:hover {
+            color: black;
+            font-size: 13.5px;
+        }
+/*show the dropdown menu on hover*/
+.dropdown_events:hover .events_content {
+    display: block;
+}
+/*bold the dropdown button when the dropdown content is shown*/
+.dropdown_events:hover .e_buttons {
+    color: black;
+}
+
+.e_content:hover {
+    color: black;
+}
+
+.event_maintext_bg {
+    width: 1000px;
+    height: 1300px;
+    background: url(main_resources/text.jpg) repeat-y top left;
+    border-radius: 20px;
+}
+
+.event_top {
+    font-family: Snell Roundhand, cursive;
+    margin-left: 60px;
+}
+
+.event_1 {
+    margin-left: 40px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+img.event_1 {
+    width: 400px;
+    height: 200px;
+    border: solid 1px black;
+}
+
+.event_2 {
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    border: none;
+}
+
+p.event_2 {
+    border: none;
+    margin: 18px;
+}
+
+.event_3 {
+    margin-right: 60px;
+    display: block;
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+img.event_3 {
+    width: 400px;
+    height: 200px;
+    border: solid 1px black;
+}
+
+.event_4 {
+    display: block;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    border: none;
+}
+
+p.event_4 {
+    border: none;
+    margin: 18px;
+}
+
+.event_5 {
+    margin-left: 40px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+img.event_5 {
+    width: 400px;
+    height: 200px;
+    border: solid 1px black;
+}
+
+.event_6 {
+    display: block;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    border: none;
+}
+
+p.event_6 {
+    border: none;
+    margin: 18px;
+}
+
+.event_7 {
+    margin-right: 60px;
+    display: block;
+    float: right;
+    margin-bottom: 10px;
+}
+
+img.event_7 {
+    width: 400px;
+    height: 200px;
+    border: solid 1px black;
+}
+
+.event_8 {
+    display: block;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    border: none;
+}
+
+p.event_8 {
+    border: none;
+    margin: 18px;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Cart Page CSS@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*dropdown button contents*/
+.c_buttons {
+    background-image: url(main_resources/text.jpg);
+    border: none;
+    color: #beb98f;
+    font-family: "Arial Black";
+    background: milk;
+    display: block;
+    font-size: 18px;
+    padding-left: 35px;
+    padding-right: 20px;
+    height: 40px;
+}
+
+.cart_content {
+    display: none;
+    position: absolute;
+    background-image: url(main_resources/text.jpg);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px;
+}
+    /*links inside the dropdown*/
+    .cart_content a {
+        padding: 12px 16px;
+        display: block;
+        font-size: 13px;
+    }
+        /*change color of dropdown links on hover*/
+        .cart_content a:hover {
+            color: black;
+            font-size: 13.5px;
+        }
+/*show the dropdown menu on hover*/
+.dropdown_cart:hover .cart_content {
+    display: block;
+}
+/*bold the dropdown button when the dropdown content is shown*/
+.dropdown_cart:hover .c_buttons {
+    color: black;
+}
+
+.c_content:hover {
+    color: black;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@About Us Page CSS@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.about_us {
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.aboutus {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.aboutus_maintext_bg {
+    width: 990px;
+    height: 900px;
+    background: url(main_resources/text.jpg) repeat-y top left;
+    border-radius: 20px;
+}
+
+.aboutus-decoimage {
+    float: right;
+    margin-right: 50px;
+}
+
+img.audeco {
+    width: 370px;
+    height: 200px;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@Help Page CSS@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.help_maintext_bg {
+    width: 990px;
+    min-height: 680px;
+    background: url(main_resources/text.jpg) repeat-y top left;
+    border-radius: 20px;
+}
+
+img.help_menu {
+    width: 500px;
+    height: 100px;
+}
+
+.help_menu {
+    margin-left: 60px;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 735px;
+    border: 0.5px solid black;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+}
+
+    .active, .collapsible:hover {
+        background-color: #555;
+    }
+
+        .collapsible:hover .collapsible_follows {
+            display: block;
+        }
+
+.content {
+    padding: 0 18px;
+    display: none;
+    width: 700px;
+    border: dashed black 0.5px;
+    overflow: hidden;
+    background-color: white;
+    height: absolute;
+}
+
+    .content h4 {
+        font-family: sans-serif;
+        color: red;
+        font-style: normal;
+        font-weight: 600;
+        text-align: justify;
+    }
+
+    .content p {
+        font-family: sans-serif;
+        color: black;
+        font-style: normal;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+.help_contents {
+    padding-bottom: 20px;
+    margin-left: 60px;
+}
+
+/*_________________________________________________________________________________*/
+/*main text*/
+.maintext {
+    width: 470px;
+    margin-left: 60px;
+    float: left;
+}
+
+/*Bottom Section*/
+/*footer*/
+.footer {
+    background-image: url(main_resources/text.jpg);
+    width: 963px;
+    border-radius: 20px;
+    height: 280px;
+}
+
+.footer_contents {
+    width: 900px;
+    margin-left: 60px;
+    float: top;
+    margin-bottom: 0px;
+    font-size: 14.5px;
+}
+
+.footer_row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer_column {
+    float: left;
+}
+
+p.footer_title {
+    color: black;
+    font-weight: 20px;
+    font-size: 18px;
+}
+
+.contactus {
+    width: 280px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 14.5px;
+    float: left;
+}
+
+.address {
+    width: 280px;
+    margin-bottom: 0px;
+    font-size: 14.5px;
+    float: left;
+}
+
+.googlemap {
+    width: 305px;
+    height: 400;
+    padding: 0px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    border: 1px solid black
+}
+
+.footer_details {
+    float: bottom;
+    width: 380px;
+    height: 20px;
+}
+
+p.footer_details {
+    color: black;
+    text-align: right;
+    margin-left: 290px;
+    margin-top: 10px;
+    font-size: 10.5px;
+}
+
+/*link effects*/
+a:link {
+    color: #beb98f;
+    font-family: "Arial Black";
+    background: milk;
+    display: block;
+}
+
+a:visited {
+    color: #beb98f;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+a:active {
+    background-color: purple;
+}
+
+
+/*POPUP FORMS*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.popup_maintext_bg {
+    width: 990px;
+    height: 450px;
+    background: url(main_resources/text.jpg) repeat-y top left;
+    border-radius: 20px;
+}
+
+.popup_giftlist_maintext_bg {
+    width: 990px;
+    height: 920px;
+    background: url(main_resources/text.jpg) repeat-y top left;
+    border-radius: 20px;
+}
+
+img.giftlist {
+    width: 725px;
+    height: 700px;
+}
+/*WhatsApp Button*/
